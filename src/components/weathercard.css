@@ -1,0 +1,217 @@
+
+/* app css */
+
+body{
+    background: #000000;
+    font-family:  sans-serif;
+   }
+  
+  
+  
+  /* Background */
+  #main{
+    background-color: rgba(255,177,77,1);
+    width: 350px;
+    height: 350px;
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    overflow: hidden;
+    /* border-radius: 20px; */
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    animation: bg 18s infinite linear both;
+    box-shadow: 0 0 0 5px #333;
+    
+  }
+  @keyframes bg{
+    0%,20%,30%{background-color: rgba(255,177,77,1)}
+    40%{background-color: rgba(47,53,117,1)}
+    50%{background-color: rgba(47,53,117,1)}
+    60%{background-color: rgba(47,53,117,1)}
+    80%,90%,100%{background-color: rgba(255,177,77,1)}
+  }
+  
+  
+  
+  #morning_degree{
+    position: absolute;
+    left: 20px;
+    font-size: 20px;
+    font-family: sans-serif;
+    color: white;
+    animation: mdegree 18s infinite linear both;
+    margin-top: 15%;
+  }
+  sup{
+    position: absolute;
+    font-size: 18px;
+  }
+  @keyframes mdegree{
+    0%,20%,30%{left: 20px}
+    40%,50%,60%{left: -80px}
+    80%,90%,100%{left: 20px}
+  }
+  
+  
+  
+  #night_degree{
+    position: absolute;
+    top: -120px;
+    left: 20px;
+    font-size: 20px;
+    font-family: sans-serif;
+    color: white;
+    animation: ndegree 18s infinite linear both;
+   
+  }
+  sup{
+    position: absolute;
+    font-size: 18px;
+  }
+  @keyframes ndegree{
+    0%,20%,30%{top: -120px}
+    40%,50%,60%{top: 0px}
+    80%,90%,100%{top: -120px}
+  }
+  
+  
+  
+  /* SUN */
+  #sun{
+    position: absolute;
+    top: -80px;
+    right: -50px;
+    background: yellow;
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    box-shadow: 0 0 0 80px rgba(255,255,255,0.3), 0 0 0 160px rgba(255,255,255,0.3);
+    animation: sun 18s infinite linear both;
+  }
+  @keyframes sun{
+    0%,20%,30%{top: -80px}
+    40%,50%,60%{top: -420px}
+    80%,90%,100%{top: -80px}
+  }
+    
+  
+  
+  /* Moon */
+  #moon{
+    position: absolute;
+    top: -140px;
+    right: 40px;
+    background: white;
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    box-shadow: 0 0 0 20px rgba(255,255,255,0.3), 0 0 0 40px rgba(255,255,255,0.3);
+    animation: moon 18s infinite linear both;
+  }
+  @keyframes moon{
+    0%,20%,30%{top: -140px}
+    40%,50%,60%{top: 40px}
+    80%,90%,100%{top: -140px}
+  }
+  
+  
+  
+  #mountains{
+    background: #1BBC9B;
+    width: 250px;
+    height: 150px;
+    border-top-left-radius: 150px;
+    border-top-right-radius: 150px;
+    position: absolute;
+    bottom: -50px;
+    left: -50px;
+    box-shadow: 180px 0 0 0  rgba(27, 198, 155,1);
+    animation: mountains 18s infinite linear both;
+  }
+  @keyframes mountains{
+    0%,20%,30%{bottom: -60px}
+    40%,50%,60%{bottom: -420px}
+    80%,90%,100%{bottom: -60px}
+  }
+  
+  
+  
+  /* River */
+  #river{
+    background: rgba(0,182,217,1);
+    width: 50px;
+    height: 80px;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    position: absolute;
+    bottom: 0px;
+    left: -40px;
+    box-shadow: 30px 15px 0 0 rgba(0,182,217,1),60px 5px 0 0 rgba(0,182,217,1),90px 10px 0 0 rgba(0,182,217,1),120px 5px 0 0 rgba(0,182,217,1),150px 10px 0 0 rgba(0,182,217,1),180px 5px 0 0 rgba(0,182,217,1),210px 10px 0 0 rgba(0,182,217,1),240px 5px 0 0 rgba(0,182,217,1),270px 10px 0 0 rgba(0,182,217,1),300px 5px 0 0 rgba(0,182,217,1),330px 10px 0 0 rgba(0,182,217,1),360px 5px 0 0 rgba(0,182,217,1);
+    animation: river 18s infinite linear both;
+  }
+  @keyframes river{
+    0%,20%,30%{bottom: -80px}
+    40%,50%,60%{bottom: 0px}
+    80%,90%,100%{bottom: -80px}
+  }
+  
+  /*  Rain  */
+  /*  div{
+     margin: 150px;
+     width: 3px;
+     height: 80px;
+     transform: rotate(25deg);
+     background: rgba(255,255,255,0.4); 
+     box-shadow: 20px 0 0 0 rgba(255,255,255,0.4), 40px 0 0 0 rgba(255,255,255,0.4);
+    } */
+
+
+    /* below animation  */
+    #maindiv{
+        background-color: rgb(123, 71, 165);
+        width: 352px;
+        height: 380px;
+        color: azure;   
+        text-align: center;   
+        /* transform: translate(-10%,-10%); */
+        overflow: hidden;
+        border-bottom-left-radius: 20px;
+        border-bottom-right-radius: 20px;
+        box-shadow: 0 0 0 5px #333;
+        margin: auto;
+        margin-top: 300px;
+    }
+    #locationInp{
+        padding: 3% 4%;
+        margin-top: 25%;
+        border-radius: 20px ;
+        border:transparent;
+        background-color: #f4dffd;
+        outline: none;
+    }
+    #locationBtn{
+        padding: 3%;
+       border: none;
+        border-radius: 20px;
+        margin-left: 1%;
+        background-color: #f3dcfc;
+        color: rgb(46, 46, 46);
+    }
+    #weather_icon{
+        width: 40%;
+     
+    }
+    .weather_name1{
+        padding: 4% 3%;
+        margin: 0px;
+        font-size: 1.6rem;
+       
+    }
+    .weather_name2{
+        padding: 2%;
+        margin: 0px;
+        font-size: 1.2rem;
+       
+    }
