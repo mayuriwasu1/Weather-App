@@ -12,7 +12,7 @@ function WeatherInfo() {
 //    const [query,setQuery] = useState("")
 //    const [data,setData] = useState([]);
    const [state,setState] = useState(initState);
-   const ApiKey = process.env.REACT_APP_API_KEY
+  // const ApiKey = process.env.REACT_APP_API_KEY
    const handleChange = (e)=>{
        console.log(e.target.value)
        setState({...state,query:e.target.value})
@@ -27,7 +27,7 @@ function WeatherInfo() {
         baseURL:"http://api.weatherapi.com/v1",
         url:"/current.json",
         params:{
-            key:ApiKey,
+            key:"236b5109f7474d238b2130234221003",
             q:state.query || "Delhi"
         }
     }).then(res=>setState({...state,data:res.data}) ).catch(err=>console.log(err))
