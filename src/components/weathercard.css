@@ -193,9 +193,9 @@ body{
     }
     #locationBtn{
         padding: 3%;
-       border: none;
+        border: none;
         border-radius: 20px;
-        margin-left: 1%;
+        margin-left: 2%;
         background-color: #f3dcfc;
         color: rgb(46, 46, 46);
     }
