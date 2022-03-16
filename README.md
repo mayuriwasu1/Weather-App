@@ -1,9 +1,8 @@
 # Weather-App
 
 
-<img align=center src="https://github.com/mayuriwasu1/Weather-App/blob/main/public/weather.gif" alt="" /> 
-<p width="100%"> 
-![glimpse](https://github.com/mayuriwasu1/Weather-App/blob/main/public/weather.gif)
-  </p>
 
 ---
+
+https://user-images.githubusercontent.com/93375338/158614305-fb3e0f0e-ea54-445f-ae0a-8162f38f1f95.mp4
+
