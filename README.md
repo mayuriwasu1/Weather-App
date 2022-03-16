@@ -1,6 +1,6 @@
 # Weather-App
 
-<p align="center"> 
+<p width="100%"> 
 ![glimpse](https://github.com/mayuriwasu1/Weather-App/blob/main/public/weather.gif)
   </p>
 
